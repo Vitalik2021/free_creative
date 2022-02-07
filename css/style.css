@@ -8,13 +8,10 @@ header {
     background-color: #c4cdff;
     background-size: cover;
 }
-
 .container {
     max-width: 1110px;
     margin: auto;
-
 }
-
 .container.d-flex {
     display: flex;
     align-items: center;
