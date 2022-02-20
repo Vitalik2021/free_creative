@@ -4,9 +4,8 @@
 }
 
 header {
-    padding-top: 31px;
-    background-color: #c4cdff;
-    background-size: cover;
+    position: absolute;
+    width: 100%;
 }
 
 .container {
@@ -27,7 +26,9 @@ header {
 }
 
 .p-right-logo {
-    font: 15px/19px "20 Kopeek";
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
     display: flex;
     color: #FFFFFF;
     max-width: 193px;
@@ -36,6 +37,7 @@ header {
 }
 
 .a-tel {
+    font-family: "20 Kopeek", sans-serif;
     width: 204px;
     height: 36px;
     border: 1px solid #FFFFFF;
@@ -75,25 +77,28 @@ header {
 
 .section-main {
     background-image: url("../images/01 1.png");
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
     background-size: cover;
-    padding-top: 269px;
-    padding-bottom: 309px;
-    /*height: 100vh;*/
+    padding-top: 301px;
+    padding-bottom: 225px;
+
 }
 
 .section-main-h1 {
-    font: 55px/55px "20 Kopeek Book";
+    font-family: "20 Kopeek Book", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
     color: #181818;
-    line-height: 100%;
+    line-height: 45px;
     max-width: 581px;
     margin-bottom: 30px;
 
 }
 
 .section-main-h3 {
-    font: 34px/37px "20 Kopeek Book";
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 110%;
     max-width: 581px;
     color: #181818;
     margin-bottom: 65px;
@@ -105,7 +110,8 @@ header {
 }
 
 .a-portfolio {
-    font: 18px "20 Kopeek";
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 16px;
     display: flex;
     background: #FFFFFF;
     border-radius: 40px;
@@ -117,7 +123,8 @@ header {
 }
 
 .a-application {
-    font: 18px "20 Kopeek";
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 16px;
     display: flex;
     background: #FFFFFF;
     border-radius: 40px;
@@ -146,11 +153,14 @@ header {
 }
 
 .div-p-item {
-    font: 18px "20 Kopeek";
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 18px;
     max-width: 445px;
     padding-left: 30px;
     color: #181818;
     line-height: 140%;
+    position: relative;
+    bottom: 10px;
 }
 
 .p-item {
@@ -158,13 +168,14 @@ header {
 }
 
 .h1-item-logo {
-    font: 55px "20 Kopeek Book";
+    font-family: "20 Kopeek Book", sans-serif;
+    font-size: 55px;
     font-style: normal;
     font-weight: normal;
-    height: 165px;
+    width: 1160px;
     line-height: 100%;
     color: #181818;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 .span-number {
@@ -177,41 +188,79 @@ header {
 
 .div-num {
     display: flex;
+    width: 100%;
+}
+
+.flex-item {
+    width: 20%;
+}
+
+.flex-item {
+    display: flex;
+    font-size: 18px;
+    line-height: 140%;
+    font-family: "20 Kopeek", sans-serif;
+    color: #181818
+}
+
+.div-num span {
+    font-size: 55px;
 }
 
 .mr-bt {
     margin-bottom: 120px;
 }
 
-.num-pr-8 {
-    text-align: end;
-    font: 55px "20 Kopeek Book";
-    line-height: 100%;
-    color: #181818;
-    padding-right: 8px;
-}
-
-.num-p {
-    text-align: end;
-    margin-right: 67px;
-}
-
 .div-par-under-num {
     margin-right: 82px;
     max-width: 396px;
-    font: 18px "20 Kopeek";
+    font-family: "20 Kopeek", sans-serif;
     line-height: 140%;
     color: #181818;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .p-pad-bt {
     padding-bottom: 30px;
 }
 
+.name-com {
+    width: 83px;
+    padding-left: 8px;
+}
+
+.name-logo {
+    padding-left: 8px;
+    width: 103px;
+}
+
+.logo-graf {
+    padding-left: 8px;
+    width: 122px;
+}
+
+.font-4 {
+    padding-left: 8px;
+}
+
+span.style-5 {
+    padding-left: 8px;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
 .p-border-blue {
     background: #2B59C3;
     border-radius: 5px;
     color: white;
+    margin-right: -9px;
+    margin-left: -9px;
+    padding: 7px 7px
 
 }
 
@@ -220,7 +269,206 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     margin-bottom: 15px;
-    font: 38px "20 Kopeek Book";
+    font-family: "20 Kopeek Book", sans-serif;
     line-height: 110%;
-    margin-right: 86px;
+    font-size: 38px;
+    margin-right: 35px;
+    font-weight: normal;
+}
+
+.f-15px {
+    font-size: 15px;
+}
+
+.amperia1 {
+    margin-bottom: 45px;
+}
+
+.name-product {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%;
+}
+
+.watch-project {
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    border-radius: 40px;
+    padding: 23px 47px;
+    border: 1px solid #181818;
+    color: #181818;
+    text-decoration: none;
+    margin-left: 110px;
+}
+
+.description-products {
+    font-family: "20 Kopeek", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    max-width: 237px;
+    margin-bottom: 100px;
+}
+
+.show-more {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    padding: 23px 47px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 40px;
+    background-color: #2B59C3;
+    margin-left: 380px;
+}
+.show-more:hover{
+    background: dodgerblue;
+}
+
+.mr-123 {
+    margin-bottom: 123px;
+}
+
+.guid-present {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 110%;
+    margin-bottom: 15px;
+}
+
+.div-flex {
+    display: flex;
+}
+
+.mr-bt-77 {
+    margin-bottom: 77px;
+}
+
+.mr-bt-150 {
+    margin-bottom: 150px;
+}
+
+.guid-why {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+
+.mr-left-30 {
+    margin-left: 30px;
+}
+
+.div-bcg-bl {
+    background: #2B59C3;
+    border-radius: 5px;
+    color: white;
+    margin-right: -9px;
+    margin-left: -9px;
+    padding: 11px 39px 18px 14px;
+    margin-bottom: 33px;
+}
+
+.guide-bonus {
+    font-family: "20 Kopeek", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.guide-description {
+    font-family: " 20 Kopeek", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.h2-formik {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 110%;
+    margin-bottom: 11px;
+}
+
+.h3-formik {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    margin-bottom: 27px;
+}
+
+.mr-bt-21 {
+    margin-bottom: 21px;
+}
+
+.input-name {
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 23px 105px 23px 29px;
+    font-family: " 20 Kopeek", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    margin-right: 30px;
+}
+.input-name:hover{
+    border-color: #181818;
+}
+
+.input-number {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 23px 105px 23px 29px;
+    font-family: " 20 Kopeek", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    border: 1px solid gray;
+    margin-right: 30px;
+
+}
+.input-number:hover{
+    border-color: #181818;
+}
+.btn-formik{
+    font-family: "20 Kopeek", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    padding: 23px 47px;
+    border-radius: 40px;
+    background: #2B59C3;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.btn-formik:hover{
+    background: dodgerblue;
+}
+.span-color{
+    color: #2B59C3;
+}
+.ch-box{
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
 }
